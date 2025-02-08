@@ -1,0 +1,13 @@
+Flask
+SpeechRecognition
+gTTS
+pygame
+pymongo
+google-generativeai
+streamlit
+pickle
+pandas
+requests
+numpy
+scikit-learn
+nltk
