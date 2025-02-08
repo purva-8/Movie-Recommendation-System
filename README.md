@@ -28,23 +28,13 @@ git clone https://github.com/your-username/movie-recommendation-system.git
 cd movie-recommendation-system
 ```
 
-### 2. Install Dependencies
-Make sure you have **Python 3.7+** installed. Then, install the required libraries:
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download the Dataset
-- **Dataset:** The project uses `tmdb_5000_movies.csv` and `tmdb_5000_credits.csv`.
-- Place these files in the project directory.
-
-### 4. Run the Model Preprocessing
+### 2. Run the Model Preprocessing
 Execute `main.py` to generate the necessary files (`movies.pkl` and `similarity.pkl`).
 ```bash
 python main.py
 ```
 
-### 5. Run the Streamlit App
+### 3. Run the Streamlit App
 Once the preprocessing is done, start the recommendation system:
 ```bash
 streamlit run app.py
