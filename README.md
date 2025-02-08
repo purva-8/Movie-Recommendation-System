@@ -28,13 +28,18 @@ git clone https://github.com/your-username/movie-recommendation-system.git
 cd movie-recommendation-system
 ```
 
-### 2. Run the Model Preprocessing
+### 2. Install all dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run the Model Preprocessing
 Execute `main.py` to generate the necessary files (`movies.pkl` and `similarity.pkl`).
 ```bash
 python main.py
 ```
 
-### 3. Run the Streamlit App
+### 4. Run the Streamlit App
 Once the preprocessing is done, start the recommendation system:
 ```bash
 streamlit run app.py
