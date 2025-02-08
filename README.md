@@ -24,8 +24,8 @@ This is a **Movie Recommendation System** that suggests similar movies based on 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/movie-recommendation-system.git
-cd movie-recommendation-system
+git clone https://github.com/purva-8/Movie-Recommendation-System.git
+cd Movie-Recommendation-System
 ```
 
 ### 2. Install all dependencies
